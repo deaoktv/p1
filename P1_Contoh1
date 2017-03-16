@@ -1,0 +1,7 @@
+#include <iostream> // Define iostream
+using namespace std; // menggunakan std
+int main() //program utama
+{
+    cout << "HELLO WORLD!!!\n"; // output code
+    return 0;
+}
