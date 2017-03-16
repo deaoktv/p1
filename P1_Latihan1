@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{
+
+    char nama [100];
+    int nim;
+
+
+    cout << "Ketikan nama Anda: ";
+    cin >> nama; //membaca inputan dari keyboard
+    cout << "Masukan NIM anda :";
+    cin >> nim;
+    system("cls");
+
+    cout<< "Nama : "<<nama<<endl;
+    cout<< "NIM : "<<nim<<endl;
+
+    return 0;
+
+}
